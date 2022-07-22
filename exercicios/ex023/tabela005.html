@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        
+        th, td {
+            border: 1px solid rgba(0, 0, 0, 0.769);
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: darkgray;
+        }
+
+        col.cnome {
+            background-color: aquamarine;
+        }
+
+        col.csexo {
+            background-color: rgba(146, 80, 207, 0.575);
+        }
+
+        col.cprof {
+            background-color: darkkhaki;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+            <td>Alyson</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Policial</td>
+
+        </tr>
+        <tr>
+            <td>Ana Luiza</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+            <td>Jornalista</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Professora</td>
+
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>F</td>
+            <td>23</td>
+            <td>atleta</td>
+
+        </tr>
+        <tr>
+            <td>Mariana</td>
+            <td>F</td>
+            <td>33</td>
+            <td>Promotora</td>
+
+        </tr>
+    </table>
+    
+</body>
+</html>
