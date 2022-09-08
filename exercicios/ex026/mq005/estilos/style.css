@@ -34,7 +34,6 @@ i#burguer:hover{
 }
 
 
-
 menu {
     display: none;
 
@@ -67,9 +66,11 @@ main {
     border-radius: 10px;
 }
 
+
 article > h2 {
     padding-bottom: 20px;
 }
+
 
 article > p {
     text-align: justify;
