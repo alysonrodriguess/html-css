@@ -11,8 +11,13 @@
 
     menu > ul > li {
         display: inline-block;
+        margin: 5px;
+        
     }
 
+    header > menu > ul > li {
+        border-radius: 10px;
+    }
     main {
         width: 768px;
     }
